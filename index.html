@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>The Perfect Cocktail</title>
+		<!-- =========== TO GET MOBILE VIEW TO WORK ON IPHONE ======== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- =========== LINKS / SCRIPTS ======== -->
+		<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Josefin+Slab|Lobster|Special+Elite&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="app.js">
+		</script>
+	</head>
+	<body>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+<!-- =========== CONTAINER ======== -->
+<div class="container">
+<!-- =========== HEADER ======== -->
+	<div class="header">
+		<!-- ============ LOGO ============= -->
+		<div class="title">
+			<!-- Page Title -->
+			<h1>The Perfect Cocktail</h1>
+		</div>
+	</div>
+	<div class="banner">
+			<!-- Subtitle -->
+			<div class="subTitle">
+				<h2>Generate the perfect cocktail recipe based on your preferences.</h2>
+			</div>
+	</div>
+<!-- =========== MODAL ======== -->
+<div id="modal">
+	<div id="modal-textbox">
+		<div id="modal-text">
+		</div>
+		<div id="modal-ingredients">
+		</div>
+		<div id="modal-recipe">
+		</div>
+		<div id="modal-footer">
+			<button class="modal-buttons" id="print">Print</button>
+			<button class="modal-buttons" id="generateRecipe">See Recipe</button>
+			<!-- <button class="modal-buttons" id="another-drink">See Another Drink</button> -->
+			<button class="modal-buttons" id="save">Save As Favorite</button>
+			<button class="modal-buttons" id="close">Close</button>
+		</div>
+		</div>
+	</div>
+
+
+<!-- =========== MAIN ======== -->
+
+	<div class="favorite">
+		<h3>Your favorite drink:</h3>
+		<div class="favoriteName"></div>
+		<div class="view-favorite-recipe">
+			<button type="button" name="button" id="see-favorite">See Recipe</button>
+		</div>
+	</div>
+	<div class="main">
+				<h3>Choose your favorite type of liquor:</h3>
+				<div class="flex-box">
+					<div class="liquor" id="generateVodka">
+						<img src="images/william-warby.jpg" alt="vodka">
+						<button type="button" name="button" >Vodka</button>
+					</div>
+					<div class="liquor" id="generateGin">
+						<img src="images/soul-van-schaik.jpg" alt="gin">
+						<button type="button" name="button" >Gin</button>
+					</div>
+					<div class="liquor" id="generateRum">
+						<img src="images/malte-wingen.jpg" alt="rum">
+						<button type="button" name="button" >Rum</button>
+					</div>
+					<div class="liquor" id="generateTequila">
+						<img src="images/fidel-fernando.jpg" alt="tequila">
+						<button type="button" name="button" >Tequila</button>
+					</div>
+					<div class="liquor" id="generateWhiskey">
+						<img src="images/jonas-kaiser.jpg" alt="whiskey">
+						<button type="button" name="button" >Bourbon</button>
+					</div>
+					<div class="liquor" id="generateNA">
+						<img src="images/alison-marras.jpg" alt="mocktail">
+						<button type="button" name="button">Non-Alcoholic</button>
+					</div>
+				</div>
+			</div>
+			<!-- =========== MAIN TWO ======== -->
+		<!-- <div class="main2">
+				<h3>Choose your favorite flavor:</h3>
+				<div class="flex-box">
+					<div class="flavor" id="mint">
+						<img src="#" alt="mint">
+						<button type="button" name="button" id="generateMint">Mint</button>
+					</div>
+					<div class="flavor" id="lime">
+						<img src="#" alt="lime">
+						<button type="button" name="button" id="generateLime">Lime</button>
+					</div>
+					<div class="flavor" id="olive">
+						<img src="#" alt="olive">
+						<button type="button" name="button" id="generateOlive">Olive</button>
+					</div>
+					<div class="flavor" id="strawberries">
+						<img src="#" alt="strawberries">
+						<button type="button" name="button" id="generateStrawberries">Strawberries</button>
+					</div>
+				</div>
+			</div> -->
+
+<!-- =========== FOOTER ======== -->
+			<div class="footer">
+				<p>If you liked this website, be sure to check out the <a href="https://dwalraven21.github.io/taco_app/index.html" target="_blank">Mex-and-Match Taco Generator</a> for the perfect taco recipe to pair with your perfect cocktail.</p>
+				<p>This app was created with data from <a href="https://www.thecocktaildb.com/api.php" target="_blank">The Cocktail DB API</a></p>
+				<p>All photos were taken from the open source library: <a href="https://unsplash.com/" target="_blank">unsplash.com</a></p>
+
+				<p>Photo credit goes to <a href="https://unsplash.com/@arobj" target="_blank">Adam Jaime
+				</a>,
+				<a href="https://unsplash.com/@wwarby" target="_blank">William-Warby</a>,
+				<a href="https://unsplash.com/@soulvanschaik" target="_blank">Soul van Schaik</a>,
+				<a href="https://unsplash.com/@maltewingen" target="_blank">Malte Wingen</a>,
+				<a href="https://unsplash.com/@fifernando" target="_blank">Fidel Fernando</a>,
+				<a href="https://unsplash.com/@kaiser1310" target="_blank">Jonas Kaiser</a>
+				and
+				<a href="https://unsplash.com/@foodbymars" target="_blank">Alison Marras</a></p>
+			</div>
+		</div>
+	</body>
+</html>
